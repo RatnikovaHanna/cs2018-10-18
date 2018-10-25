@@ -1,4 +1,4 @@
-package by.it.ratnikova.lesson02;
+package by.it.ratnikova;
 /*
 Подойдет только 20
 В методе main расставь правильно знаки плюс и минус, чтобы значение переменной result получилось равным 20.

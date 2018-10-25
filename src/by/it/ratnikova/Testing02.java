@@ -1,4 +1,4 @@
-package by.it.ratnikova.lesson02;
+package by.it.ratnikova;
 
 import org.junit.Test;
 
