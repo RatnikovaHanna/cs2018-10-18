@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson04;
+package by.it.ratnikova.lesson04;
 /*
 С клавиатуры вводится некоторое число.
 Пусть считается сумма int sum=1+2+3+4+5+... и т.д.
@@ -25,7 +25,17 @@ package by.it._tasks_.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите k: ");
+        int k=in.nextInt();
+        int n=1;
+        for(int i=0;i<k;i++){
+            System.out.println(n*(n+1)/2);
+            n++;}
+    }
+        }
 
-}
