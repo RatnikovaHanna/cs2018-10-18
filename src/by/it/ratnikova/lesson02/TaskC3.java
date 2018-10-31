@@ -1,4 +1,4 @@
-package by.it.ratnikova;
+package by.it.ratnikova.lesson02;
 
 /*
 Ускорение свободного падения на Земле и Марсе таково:

@@ -29,7 +29,7 @@ strictfp class TaskB1 {
         byte b = 0b111;
         long o = 0111;
         int h = 0x111;
-        float f = 111.111f;
+        float f = 111.111F;
         System.out.println(d + b + o + h + f);
         System.out.println(d + " " + b + " " + o + " " + h + " " + f);
     }
