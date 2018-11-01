@@ -29,13 +29,20 @@ import java.util.Scanner;
 
 public class TaskB3 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Введите k: ");
-        int k=in.nextInt();
-        int n=1;
-        for(int i=0;i<k;i++){
-            System.out.println(n*(n+1)/2);
-            n++;}
-    }
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int sum = 0;
+        int i = 1;
+        for (; ; ) {
+            sum = sum + i++;
+            if (sum <= n)
+                System.out.print(sum + ",");
+            else
+                break;
+
         }
 
+    }
+
+
+}

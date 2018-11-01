@@ -36,7 +36,10 @@ package by.it.ratnikova.lesson04;
 За месяц 14 начислено $0.0
 
 */
+
 public class TaskC1 {
 
-
 }
+
+
+

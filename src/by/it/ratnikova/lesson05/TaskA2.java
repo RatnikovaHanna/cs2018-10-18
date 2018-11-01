@@ -1,4 +1,7 @@
-package by.it._tasks_.lesson05;
+package by.it.ratnikova.lesson05;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /*
 Создайте список строк.
@@ -20,5 +23,18 @@ END
 
 */
 public class TaskA2 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        for (; ; ) {
+            String str = scanner.next();
+            if (str.equals("END"))
+                break;
+            list.add(str);
+        }
 
+        System.out.println(list);
+
+
+    }
 }
