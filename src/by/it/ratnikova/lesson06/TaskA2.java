@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson06;
+package by.it.ratnikova.lesson06;
 
 /*
     toString() для класса Dog
